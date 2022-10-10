@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOP Shop</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="frame">
+      <div id="top">
+        <h1 id="shop-name">Smartphones</h1>
+      </div>
+      <div id="middle">
+        <table>
+          <tr>
+            <td>TOP 1</td>
+            <td>TOP 2</td>
+            <td>TOP 3</td>
+            <td>TOP 4</td>
+            <td>TOP 5</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.amazon.com/">SAMSUNG Galaxy S22 Ultra 1</a>
+            </td>
+            <td>
+              <a href="https://www.amazon.com/">SAMSUNG Galaxy S22 Ultra 2</a>
+            </td>
+            <td>
+              <a href="https://www.amazon.com/">SAMSUNG Galaxy S22 Ultra 3</a>
+            </td>
+            <td>
+              <a href="https://www.amazon.com/">SAMSUNG Galaxy S22 Ultra 4</a>
+            </td>
+            <td>
+              <a class="amazonLinks" href="https://www.amazon.com/"></a>
+                Click here
+              </a>
+              SAMSUNG Galaxy S22 Ultra 5 >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://m.media-amazon.com/images/I/71Wkk4n9olL._AC_SX450_.jpg"
+                alt="SAMSUNG-Galaxy-S22-Ultra"
+              />
+            </td>
+            <td>
+              <img
+                src="https://m.media-amazon.com/images/I/71Wkk4n9olL._AC_SX450_.jpg"
+                alt="SAMSUNG-Galaxy-S22-Ultra"
+              />
+            </td>
+            <td>
+              <img
+                src="https://m.media-amazon.com/images/I/71Wkk4n9olL._AC_SX450_.jpg"
+                alt="SAMSUNG-Galaxy-S22-Ultra"
+              />
+            </td>
+            <td>
+              <img
+                src="https://m.media-amazon.com/images/I/71Wkk4n9olL._AC_SX450_.jpg"
+                alt="SAMSUNG-Galaxy-S22-Ultra"
+              />
+            </td>
+            <td>
+              <img
+                src="https://m.media-amazon.com/images/I/71Wkk4n9olL._AC_SX450_.jpg"
+                alt="SAMSUNG-Galaxy-S22-Ultra"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long
+              Battery Life, Fast 4nm Processor, US Version, Burgundy
+            </td>
+            <td>
+              256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long
+              Battery Life, Fast 4nm Processor, US Version, Burgundy
+            </td>
+            <td>
+              256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long
+              Battery Life, Fast 4nm Processor, US Version, Burgundy
+            </td>
+            <td>
+              256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long
+              Battery Life, Fast 4nm Processor, US Version, Burgundy
+            </td>
+            <td>
+              256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long
+              Battery Life, Fast 4nm Processor, US Version, Burgundy
+            </td>
+          </tr>
+          <tr>
+            <td>1299,99$</td>
+            <td>1299,99$</td>
+            <td>1299,99$</td>
+            <td>1299,99$</td>
+            <td>1299,99$</td>
+          </tr>
+        </table>
+      </div>
+      <div id="bottom">
+        <p id="footer">40 Bay Street, Suite 500, Toronto ON M5J 2L2</p>
+      </div>
+    </div>
+    <script>
+      // EX7: Write a function to change the h1 text to something else
+      const changeHead = function changedH1() {
+        document.querySelector("h1").replaceWith("TOP Smartphones");
+      };
+
+      // EX8: Write a function to change the page background color
+      const changeBC = function changeBackgroundColor() {
+        document.getElementById("frame").classList.add("changeBC");
+      };
+
+      // EX9: Write a function to change the footer address with a fake one
+
+      const changeFooter = function changeFooter() {
+        document
+          .querySelector("#footer")
+          .replaceWith("1 Warriors Way, San Francisco, CA 94158, USA");
+      };
+      // EX10: Write a function to add a CSS class to every Amazon link
+
+      const changeLinks = function changeLinks() {
+        document
+          .getElementsByClassName("amazonLinks")
+          .classList.add("diffLinks");
+      };
+
+      // EX11: Write a function to toggle a CSS class for all the images in the table; that class should set the visibility of the image
+
+      // EX12: Write a function to color the price of the products in a different one every time it’s invoked
+    </script>
+  </body>
+</html>

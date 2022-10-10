@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+img {
+  width: 150px;
+  aspect-ratio: 1/1;
+}
+
+.changeBC {
+  background-color: goldenrod;
+}
+
+#frame {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#top {
+  text-align: center;
+  position: relative;
+  height: 25%;
+  width: 100%;
+}
+#middle {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+#bottom {
+  text-align: end;
+  position: relative;
+  height: 15%;
+  width: 100%;
+}
