@@ -23,51 +23,63 @@
           </tr>
           <tr>
             <td>
-              <a href="https://www.amazon.com/">SAMSUNG Galaxy S22 Ultra 1</a>
+              <a class="amazonLinks" href="https://www.amazon.com/"
+                >Samsung Galaxy z Fold 3</a
+              >
             </td>
             <td>
-              <a href="https://www.amazon.com/">SAMSUNG Galaxy S22 Ultra 2</a>
+              <a class="amazonLinks" href="https://www.amazon.com/"
+                >SAMSUNG Galaxy S22 Ultra 2</a
+              >
             </td>
             <td>
-              <a href="https://www.amazon.com/">SAMSUNG Galaxy S22 Ultra 3</a>
+              <a class="amazonLinks" href="https://www.amazon.com/"
+                >SAMSUNG Galaxy S22 Ultra 3</a
+              >
             </td>
             <td>
-              <a href="https://www.amazon.com/">SAMSUNG Galaxy S22 Ultra 4</a>
+              <a class="amazonLinks" href="https://www.amazon.com/"
+                >SAMSUNG Galaxy S22 Ultra 4</a
+              >
             </td>
             <td>
-              <a class="amazonLinks" href="https://www.amazon.com/"></a>
-                Click here
+              <a class="amazonLinks" href="https://www.amazon.com/">
+                SAMSUNG Galaxy S22 Ultra 5
               </a>
-              SAMSUNG Galaxy S22 Ultra 5 >
             </td>
           </tr>
           <tr>
             <td>
               <img
+                class="images"
                 src="https://m.media-amazon.com/images/I/71Wkk4n9olL._AC_SX450_.jpg"
                 alt="SAMSUNG-Galaxy-S22-Ultra"
               />
             </td>
             <td>
               <img
+                class="images"
                 src="https://m.media-amazon.com/images/I/71Wkk4n9olL._AC_SX450_.jpg"
                 alt="SAMSUNG-Galaxy-S22-Ultra"
               />
             </td>
             <td>
               <img
+                class="images"
                 src="https://m.media-amazon.com/images/I/71Wkk4n9olL._AC_SX450_.jpg"
                 alt="SAMSUNG-Galaxy-S22-Ultra"
               />
             </td>
             <td>
               <img
+                class="images"
                 src="https://m.media-amazon.com/images/I/71Wkk4n9olL._AC_SX450_.jpg"
                 alt="SAMSUNG-Galaxy-S22-Ultra"
               />
             </td>
             <td>
               <img
+                class="images"
                 src="https://m.media-amazon.com/images/I/71Wkk4n9olL._AC_SX450_.jpg"
                 alt="SAMSUNG-Galaxy-S22-Ultra"
               />
@@ -75,28 +87,35 @@
           </tr>
           <tr>
             <td>
-              256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long
-              Battery Life, Fast 4nm Processor, US Version, Burgundy
+              <ul>
+                <li>CPU: 2.84GHz</li>
+                <li>IM: 512GB</li>
+                <li>SMo: 960fps</li>
+              </ul>
             </td>
             <td>
-              256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long
-              Battery Life, Fast 4nm Processor, US Version, Burgundy
+              <li>CPU: 2.84GHz</li>
+              <li>IM: 1TB</li>
+              <li>SMo: 960fps</li>
             </td>
             <td>
-              256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long
-              Battery Life, Fast 4nm Processor, US Version, Burgundy
+              <li>CPU: 2.84GHz</li>
+              <li>IM: 256GB</li>
+              <li>SMo: 960fps</li>
             </td>
             <td>
-              256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long
-              Battery Life, Fast 4nm Processor, US Version, Burgundy
+              <li>CPU: 2.84GHz</li>
+              <li>IM: 256GB</li>
+              <li>SMo: 960fps</li>
             </td>
             <td>
-              256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long
-              Battery Life, Fast 4nm Processor, US Version, Burgundy
+              <li>CPU: 2.84GHz</li>
+              <li>IM: 256GB</li>
+              <li>SMo: 960fps</li>
             </td>
           </tr>
           <tr>
-            <td>1299,99$</td>
+            <td>1909,99$</td>
             <td>1299,99$</td>
             <td>1299,99$</td>
             <td>1299,99$</td>
@@ -105,15 +124,19 @@
         </table>
       </div>
       <div id="bottom">
-        <p id="footer">40 Bay Street, Suite 500, Toronto ON M5J 2L2</p>
+        <p id="footer">
+          40 Bay Streetrtytryrtyrty, Suite 500, Toronto ON M5J 2L2
+        </p>
       </div>
     </div>
     <script>
       // EX7: Write a function to change the h1 text to something else
+
       const changeHead = function changedH1() {
         document.querySelector("h1").replaceWith("TOP Smartphones");
       };
 
+      //   let changeHead.style
       // EX8: Write a function to change the page background color
       const changeBC = function changeBackgroundColor() {
         document.getElementById("frame").classList.add("changeBC");
@@ -129,13 +152,23 @@
       // EX10: Write a function to add a CSS class to every Amazon link
 
       const changeLinks = function changeLinks() {
-        document
-          .getElementsByClassName("amazonLinks")
-          .classList.add("diffLinks");
+        document.querySelector("a").classList.add("diffLinks");
       };
 
       // EX11: Write a function to toggle a CSS class for all the images in the table; that class should set the visibility of the image
+      const hideImages = hideImages() {
+        const locImages = document.querySelectorAll("img");
+      }
 
+
+      //   const hideImages = function () {
+      //     document.querySelector("img").classList.add("hidden");
+      //   };
+      // Image.classList.toggle("hidden")
+      // const container = document.getElementById("container")
+      // container.hidden = !container.hidden // this adds the "hidden" attributes that will make it hidden
+
+      //   container.classList.toggle("hidden") // this leaverages the class we created in css to hide the element, toggling it on / off
       // EX12: Write a function to color the price of the products in a different one every time it’s invoked
     </script>
   </body>

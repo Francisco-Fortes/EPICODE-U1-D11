@@ -4,7 +4,18 @@ body {
 
 img {
   width: 150px;
-  aspect-ratio: 1/1;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hidden {
+  display: none;
+  background-color:rebeccapurple
+}
+
+.diffLinks {
+  background-color: aqua;
+  text-decoration: none;
 }
 
 .changeBC {
